@@ -16,6 +16,13 @@ public class Account {
 
     private String agency;
 
+    /**
+     * Precision 13 (inteiros precisos)
+     * Scale 2 (casas decimais pos virgulas
+     * Valores que definem precisao e escala do valores
+     * 9999999999999,99
+     *
+     */
     @Column(precision = 13, scale = 2)
     private BigDecimal balance;
 
