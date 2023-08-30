@@ -6,6 +6,6 @@ spring:
   jpa:
     open-in-view: false
     hibernate:
-      #primeira vez que rodar tem que ser create
+      #primeira vez que rodar tem que ser create ok
       #ddl-auto: create
       ddl-auto: validate
