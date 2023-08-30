@@ -26,6 +26,13 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
+//Main Classe para o Railway
+tasks.jar {
+	manifest {
+		attributes["Main-Class"] = "com.me.dio.mybank.danilo.santander.dev.week3.SantanderDevWeek2023Application"
+	}
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
