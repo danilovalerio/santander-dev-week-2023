@@ -1,7 +1,7 @@
 package com.me.dio.mybank.danilo.santander.dev.week3.controller.exception;
 
-import me.dio.service.exception.BusinessException;
-import me.dio.service.exception.NotFoundException;
+import com.me.dio.mybank.danilo.santander.dev.week3.service.exception.BusinessException;
+import com.me.dio.mybank.danilo.santander.dev.week3.service.exception.NotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
